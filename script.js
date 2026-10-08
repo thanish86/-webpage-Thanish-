@@ -36,7 +36,7 @@
     }
   });
 
-  window.matchMedia('(min-width: 861px)').addEventListener('change', (event) => {
+  window.matchMedia('(min-width: 981px)').addEventListener('change', (event) => {
     if (event.matches) setMenu(false);
   });
 
